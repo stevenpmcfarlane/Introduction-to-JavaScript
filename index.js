@@ -68,9 +68,7 @@ Do the following:
 */
 
 function multiply(v1, v2){
-    let x = 3;
-    let y = 4;
-    x * y
+    return v1 * v2
   }
 
 
@@ -212,22 +210,9 @@ Using the grade function below do the following:
    below should return 'you got an F'
 */
   
-function grade(num){
-    if(num < 100 && num >= 90){
-      return 'you got an A';
-    }else if(num <90 && num >= 80){
-      return 'you got a B';
-    }else if(num < 80 && num >= 70){
-      return 'you got a C';
-    }else if(num < 70 && num >= 60){
-      return 'you got a D';
-    }else if(num < 60){
-      return 'you got an F';
-    }
+function grade(/*Your Code here */){
+  /*Your Code here */
   }
-  
-  console.log('grade function', grade(85));
-  
   
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
